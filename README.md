@@ -11,7 +11,7 @@ Expected Graduation: July 2024 (GPA: 4.0)
 
 
 ### Work Experience
-####Business Development Manager | Cignature Financial LLC (Jan 2022-Feb 2023)
+#### Business Development Manager | Cignature Financial LLC (Jan 2022-Feb 2023)
 -Spearheaded the complete setup of Cignature Financial LLC, achieving operational readiness in under a month.
 -Developed and implemented a comprehensive business development strategy, resulting in a 30% increase in client acquisition within the first quarter.
 -Established key partnerships with three major financial institutions, expanding Cignature Financial LLC network and contributing to a 20% growth in the client base.
