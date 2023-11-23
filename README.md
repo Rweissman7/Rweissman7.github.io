@@ -28,4 +28,4 @@ Expected Graduation: July 2024 (GPA: 4.0)
 -Implemented efficient design processes and introduced new tools, resulting in an increase in personal productivity and a reduction in project costs.  
 
 ### Projects
-[Sql Project](mysql_Finalproject.ipynb)
+[SQL Project](mysql_Finalproject.ipynb)
