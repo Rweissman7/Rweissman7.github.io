@@ -1,8 +1,8 @@
 # Data Scientist
 
 ## Technical Skills
-Tools: Python, R, SQL, Excel, Github
-Relevant Courses: Data Mining and Warehousing, Machine Learning, Statistical Analysis, Database Management Systems
+Tools: Python, R, SQL, Excel, Github  
+Relevant Courses: Moodys Analytics Small Business Lending, Data Mining and Warehousing, Machine Learning, Statistical Analysis, Database Management Systems
 
 ### Education
 Saint Peter's University
