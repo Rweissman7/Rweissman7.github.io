@@ -5,7 +5,7 @@ Tools: Python, R, SQL, Excel, Github
 Relevant Courses: Moodys Analytics Small Business Lending, Data Mining and Warehousing, Machine Learning, Statistical Analysis, Database Management Systems
 
 ### Education
-Saint Peter's University  
+Saint Peter's University    
 Bachelor of Science in Data, Minor in Business  
 Expected Graduation: July 2024 (GPA: 4.0) 
 
