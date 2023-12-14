@@ -28,6 +28,6 @@ Expected Graduation: July 2024 (GPA: 4.0)
 -Implemented efficient design processes and introduced new tools, resulting in an increase in personal productivity and a reduction in project costs.  
 
 ### Projects
-[SQL Project](mysql_Finalproject.ipynb)
-[Auto MPG Project](https://github.com/Rweissman7/Rweissman7.github.io/blob/main/Auto%20MPG%20Project.R)
-[Call Center Project](https://github.com/Rweissman7/Rweissman7.github.io/blob/main/Call%20Center%20Project.R)
+[SQL Project](mysql_Finalproject.ipynb)  
+[Auto MPG Project](Auto%20MPG%20Project.R)  
+[Call Center Project](Call%20Center%20Project.R)
