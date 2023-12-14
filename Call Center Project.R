@@ -7,6 +7,7 @@ library(ggplot2)
 #load library to get see multiple grids on one page
 library("gridExtra")
 library("cowplot")
+library(dplyr)
 
 #load data set
 call_Dataset <- read.csv(file.choose())
@@ -32,10 +33,16 @@ ggplot(call_Dataset, aes(x = Sentiment, y= Call.Duration.In.Minutes))+
 
 #check if response time does affect the sentiment
 #create 4 bar plots one for all response times and percentage of each sentiment and 3 more for calls that were responded within above and below sla
-plot_all<- ggplot(call_Dataset, aes(x = Sentiment, y= Response.Time))+
-  geom_col(fill = "lightgray")+
-  theme(axis.text.x = element_text(angle = 90))+
-  geom_text(aes(label = sprintf("%.1f%%",after_stat(y)/nrow(call_Dataset)*100),group=Sentiment),stat = "summary",fun = sum, vjust=2, color="red" )+
+plot_all<- ggplot(call_Dataset, aes(x = Sentiment)) +
+  geom_bar(position = "stack", fill = "lightgray") +
+  geom_text(
+    aes(label = sprintf("%.1f%%", after_stat(count / sum(count) * 100)),
+        y = after_stat(count)),
+    stat = "count",
+    position = position_stack(vjust = 0.75),
+    color = "red"
+  ) +
+  theme(axis.text.x = element_text(angle = 90)) +
   labs(x = "Sentiment", y = "All Response Times")
 #majority of responses were negative or neutral very few were positive
 #check for within sla
@@ -108,13 +115,13 @@ ggplot(merged_dataset, aes(x = Call.Centres.City, fill = Response.Time)) +
 #3does the channel which the call is coming from affect the sentiment
 percentages_channel <- call_Dataset %>%
   group_by(Channel, Sentiment) %>%
+  summarize(percentage = n() / sum(call_Dataset$Channel == Channel) * 100)
 
 merged_dataset <- merge(call_Dataset,percentages_channel, by = c("Channel", "Sentiment"), all.x =TRUE)
-#stacke bar chart to see the percentage of sentiments for each channel 
+#stacked bar chart to see the percentage of sentiments for each channel 
 ggplot(merged_dataset, aes(x = Channel, fill = Sentiment)) +
   geom_bar(position = "stack") +
-  geom_text(
-    aes(label = sprintf("%.1f%%", percentage)),
+  geom_text(aes(label = sprintf("%.1f%%", percentage)),
     stat = "count",
     position = position_stack(vjust = 0.5))
 #Web channel has highest percentage positive and lowest very negative so maybe get more people to try the web first before calling. 
