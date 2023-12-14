@@ -29,3 +29,5 @@ Expected Graduation: July 2024 (GPA: 4.0)
 
 ### Projects
 [SQL Project](mysql_Finalproject.ipynb)
+[Auto MPG Project](https://github.com/Rweissman7/Rweissman7.github.io/blob/main/Auto%20MPG%20Project.R)
+[Call Center Project](https://github.com/Rweissman7/Rweissman7.github.io/blob/main/Call%20Center%20Project.R)
