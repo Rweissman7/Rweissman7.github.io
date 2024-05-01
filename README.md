@@ -31,4 +31,5 @@ Expected Graduation: July 2024 (GPA: 4.0)
 [SQL Project](mysql_Finalproject.ipynb)  
 [Auto MPG Project](Auto%20MPG%20Project.R)  
 [Call Center Project](Call%20Center%20Project.R)
-[Etsy Shop Project](Etsy%20project%20code.ipynb)
+
+[Etsy Shop Project](https://github.com/Rweissman7/Etsy_data)
