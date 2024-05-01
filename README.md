@@ -23,8 +23,9 @@ Expected Graduation: July 2024 (GPA: 4.0)
 -Collaborated with cross-functional teams to streamline underwriting processes.  
   
 
-### Projects
+### Projects  
+[Etsy Shop Project](https://github.com/Rweissman7/Etsy_data)  
 [SQL Project](mysql_Finalproject.ipynb)  
 [Auto MPG Project](Auto%20MPG%20Project.R)  
 [Call Center Project](Call%20Center%20Project.R)   
-[Etsy Shop Project](https://github.com/Rweissman7/Etsy_data)
+
