@@ -21,11 +21,7 @@ Expected Graduation: July 2024 (GPA: 4.0)
 -Achieved top performance, consistently exceeding company benchmarks.  
 -Utilized quantitative and qualitative data to inform lending decisions.  
 -Collaborated with cross-functional teams to streamline underwriting processes.  
-
-#### Graphic Designer | Musing Treasures (2013-present)
--Conceptualized and executed visually compelling designs for clients across various industries.  
--Managed end-to-end project workflows, consistently meeting or exceeding deadlines for all design deliverables.  
--Implemented efficient design processes and introduced new tools, resulting in an increase in personal productivity and a reduction in project costs.  
+  
 
 ### Projects
 [SQL Project](mysql_Finalproject.ipynb)  
