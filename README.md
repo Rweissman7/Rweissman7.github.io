@@ -24,7 +24,8 @@ Expected Graduation: July 2024 (GPA: 4.0)
   
 
 ### Projects  
-[Etsy Shop Project](https://github.com/Rweissman7/Etsy_data)  
+[Etsy Shop Project](https://github.com/Rweissman7/Etsy_data)   
+[Diagnosing Hypothroidism](https://github.com/Rweissman7/Diagnosing-Hypothyroidism)  
 [Titanic Tableau Project](https://github.com/Rweissman7/Titanic-Dataset)  
 [SQL Project](mysql_Finalproject.ipynb)  
 [Auto MPG Project](Auto%20MPG%20Project.R)  
