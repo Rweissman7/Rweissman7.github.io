@@ -26,7 +26,7 @@ Expected Graduation: August 2024 (GPA: 4.0)
   
 
 ### Projects  
-[Customer Churn Analysis]([https://github.com/Rweissman7/Titanic-Dataset](https://github.com/Rweissman7/Customer-Churn-Analysis/blob/main/Capstone%20Project%20Ruchel%20Weissman%20slides.pdf))  
-[AI Trend Detection with Hugging Face]([https://github.com/Rweissman7/Diagnosing-Hypothyroidism](https://huggingface.co/spaces/Rachel7/AIProject))  
-[Etsy Shop Optimization]([https://github.com/Rweissman7/Etsy_data](https://github.com/Rweissman7/Etsy_data/blob/main/Etsy%20shop%20project.pdf))   
+[Customer Churn Analysis](https://github.com/Rweissman7/Customer-Churn-Analysis/blob/main/Capstone%20Project%20Ruchel%20Weissman%20slides.pdf)  
+[AI Trend Detection with Hugging Face](https://huggingface.co/spaces/Rachel7/AIProject)  
+[Etsy Shop Optimization](https://github.com/Rweissman7/Etsy_data/blob/main/Etsy%20shop%20project.pdf)  
 
